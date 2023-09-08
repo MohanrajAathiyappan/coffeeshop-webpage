@@ -1,0 +1,49 @@
+.loginpage {
+    background-image: url('./loginpageimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 567px;
+    width: 100%;
+    padding-top: 140px;
+}
+
+.loginpageheading {
+    color: #5a4343;
+
+}
+
+.LoginForm {
+    width: calc(30%);
+    background-color: white;
+    border-radius: 20px;
+    height: 380px;
+    text-align: center;
+    margin-left: 37%;
+    padding: 10px;
+
+}
+
+.text {
+    margin: 20px;
+    text-align: left;
+}
+
+.loginformbuttons{
+    width: 412px;
+}
+
+.forgetpassword{
+    color: rgb(120, 2, 2);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+//textfield and button styles
+
+.textfield,
+.buttons {
+    margin: 20px;
+    width: 400px;
+}
