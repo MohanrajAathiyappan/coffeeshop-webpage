@@ -27,6 +27,10 @@ const RegisterPage = () => {
           </div>
 
           <div className="textfield">
+            <TextField id="outlined-basic" label="PhoneNumber" variant="outlined" className="textfield"></TextField>
+          </div>
+
+          <div className="textfield">
             <TextField id="outlined-basic" label="Password" variant="outlined" className="textfield"></TextField>
           </div>
 
@@ -35,9 +39,11 @@ const RegisterPage = () => {
           </div>
 
           <div className="registerformbuttons">
+
             <Button variant="contained" color="success" size="large" style={{backgroundColor:'#694633', width: '415px' }}>
               Register
             </Button>
+            
           </div>
 
         </div>
