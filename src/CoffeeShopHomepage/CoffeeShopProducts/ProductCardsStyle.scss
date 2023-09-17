@@ -1,0 +1,19 @@
+.CoffeeProducts{
+margin: 30px 0px 20px 6%; //Top, right, bottom, left
+display: inline-block;
+padding: 10px;
+}
+
+.CoffeeProducts:hover{
+    //zoom: 101%;
+    transition: 0.8s;
+}
+
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .CoffeeProducts {
+        margin: 10px 0px; /* Adjust the margin for smaller screens */
+        display: block; /* Display as a block element for better stacking on smaller screens */
+    }
+}

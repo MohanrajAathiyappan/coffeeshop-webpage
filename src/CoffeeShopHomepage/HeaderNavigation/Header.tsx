@@ -17,6 +17,9 @@ import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import CoffeeOutlinedIcon from '@mui/icons-material/CoffeeOutlined';
 import { Link } from 'react-router-dom';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import './HeaderStyle.scss'
 
 //header
 const pages = ['Our Coffee', 'Pricing',];
@@ -47,6 +50,7 @@ const Header = () => {
 
   return (
     <>
+    <div className='headercomponent'>
       <AppBar position="static" sx={{ backgroundColor: '#3e2016', color: 'white' }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
@@ -69,6 +73,7 @@ const Header = () => {
               CoffeeShop
             </Typography>
 
+{/* endIcon={<ShoppingCartOutlinedIcon />} */}
             <TextField size='small' type='text' placeholder='Search Coffee' style={{ height: 'auto', width: '35%', borderRadius: '5px', marginLeft: '18%', backgroundColor: 'wheat', borderColor: 'wheat' }} />
 
             {/* Notification and Message icon*/}
@@ -77,7 +82,7 @@ const Header = () => {
             <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
               <IconButton size="large" aria-label="show 4 new mails" color="inherit">
                 <Badge badgeContent={7} color="error">
-                  <MailIcon />
+                  <NotificationsIcon />
                 </Badge>
               </IconButton>
               <IconButton
@@ -86,7 +91,16 @@ const Header = () => {
                 color="inherit"
               >
                 <Badge badgeContent={3} color="error">
-                  <NotificationsIcon />
+                  <FavoriteIcon />
+                </Badge>
+              </IconButton>
+              <IconButton
+                size="large"
+                aria-label="show 17 new notifications"
+                color="inherit"
+              >
+                <Badge badgeContent={1} color="error">
+                  <ShoppingCartIcon />
                 </Badge>
               </IconButton>
 
@@ -127,6 +141,7 @@ const Header = () => {
           </Toolbar>
         </Container>
       </AppBar>
+      </div>
     </>
   )
 }

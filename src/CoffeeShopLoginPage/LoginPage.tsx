@@ -51,9 +51,8 @@ const LoginPage = () => {
           });
 
           Navigate("/Homepage");
-        } 
-        else
-        {
+        }
+        else {
           console.log("Login Failed");
           Toast.fire({
             icon: "error",
@@ -96,7 +95,9 @@ const LoginPage = () => {
           </div>
 
           <div className="text">
-            <p className="forgetpassword">Forget Password?</p>
+            <Link to='CoffeeShopForgetPassword' style={{textDecoration:'none'}}>
+              <p className="forgetpasswordtext">Forget Password?</p>
+            </Link>
           </div>
 
           <div className="text">
