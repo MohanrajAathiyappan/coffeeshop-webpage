@@ -35,8 +35,20 @@
 @media (max-width: 576px) {
     .headerimage {
         height: 200px; /* Further adjust the height for even smaller screens */
-        background-position-y: -170px; /* Further adjust the background position */
+        background-position-y: -100px; /* Further adjust the background position */
         background-size: cover;
         transition: 0.8s;
+    }
+
+    .headerimage::before {
+        content: "";
+        position: absolute;
+        bottom: -7;
+        left: 0;
+        right: 0;
+        top: 170px;
+        height: 13%; /* Adjust the height for the amount of fading */
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+        pointer-events: none; /* Allows interaction with the image beneath */
     }
 }

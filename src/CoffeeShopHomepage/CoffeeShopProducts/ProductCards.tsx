@@ -22,9 +22,12 @@ const ProductCards = () => {
     return (
         <div>
             <div className="CoffeeProducts">
-                <Card sx={{ maxWidth: 345, padding: "10px" }}>
-                    <CardHeader title="Cappuccino" subheader="September 14, 2016" />
+                <Card sx={{ maxWidth: 345, padding: "10px", backgroundColor: 'rgb(247, 229, 196)', borderRadius: '36px' }}>
+                    <CardHeader title="Cappuccino"
+                    //subheader="September 14, 2016"
+                    />
                     <CardMedia
+                        sx={{ borderRadius: '26px' }}
                         component="img"
                         height="194"
                         image={FirstCoffeeProduct}
@@ -58,12 +61,12 @@ const ProductCards = () => {
             </div>
 
             <div className="CoffeeProducts">
-                <Card sx={{ maxWidth: 345, padding: "10px" }}>
+                <Card sx={{ maxWidth: 345, padding: "10px", backgroundColor: 'rgb(247, 229, 196)', borderRadius: '36px' }}>
                     <CardHeader
                         title="Flat White Coffee"
-                        subheader="September 14, 2016"
                     />
                     <CardMedia
+                        sx={{ borderRadius: '26px' }}
                         component="img"
                         height="194"
                         image={FlatWhiteCoffee}
@@ -97,9 +100,10 @@ const ProductCards = () => {
             </div>
 
             <div className="CoffeeProducts">
-                <Card sx={{ maxWidth: 345, padding: "10px" }}>
-                    <CardHeader title="Caffe Mocha" subheader="September 14, 2016" />
+                <Card sx={{ maxWidth: 345, padding: "10px", backgroundColor: 'rgb(247, 229, 196)', borderRadius: '36px' }}>
+                    <CardHeader title="Caffe Mocha" />
                     <CardMedia
+                        sx={{ borderRadius: '26px' }}
                         component="img"
                         height="194"
                         image={CaffeMocha}
@@ -133,12 +137,12 @@ const ProductCards = () => {
             </div>
 
             <div className="CoffeeProducts">
-                <Card sx={{ maxWidth: 345, padding: "10px" }}>
+                <Card sx={{ maxWidth: 345, padding: "10px", backgroundColor: 'rgb(247, 229, 196)', borderRadius: '36px' }}>
                     <CardHeader
                         title="Shrimp and Chorizo Paella"
-                        subheader="September 14, 2016"
                     />
                     <CardMedia
+                        sx={{ borderRadius: '26px' }}
                         component="img"
                         height="194"
                         image={FirstCoffeeProduct}
@@ -172,12 +176,12 @@ const ProductCards = () => {
             </div>
 
             <div className="CoffeeProducts">
-                <Card sx={{ maxWidth: 345, padding: "10px" }}>
+                <Card sx={{ maxWidth: 345, padding: "10px", backgroundColor: 'rgb(247, 229, 196)', borderRadius: '36px' }}>
                     <CardHeader
                         title="Shrimp and Chorizo Paella"
-                        subheader="September 14, 2016"
                     />
                     <CardMedia
+                        sx={{ borderRadius: '26px' }}
                         component="img"
                         height="194"
                         image={FirstCoffeeProduct}
@@ -211,12 +215,12 @@ const ProductCards = () => {
             </div>
 
             <div className="CoffeeProducts">
-                <Card sx={{ maxWidth: 345, padding: "10px" }}>
+                <Card sx={{ maxWidth: 345, padding: "10px", backgroundColor: 'rgb(247, 229, 196)', borderRadius: '36px' }}>
                     <CardHeader
                         title="Shrimp and Chorizo Paella"
-                        subheader="September 14, 2016"
                     />
                     <CardMedia
+                        sx={{ borderRadius: '26px' }}
                         component="img"
                         height="194"
                         image={FirstCoffeeProduct}
