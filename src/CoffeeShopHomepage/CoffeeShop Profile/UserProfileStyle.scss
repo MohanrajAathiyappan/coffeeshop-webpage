@@ -1,0 +1,33 @@
+.ProfileCard {
+    width: 40%;
+    height: 500px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    border-radius: 35px;
+    margin-top: 20px;
+}
+
+.profileDetailscard {
+    height: 500px;
+    border-radius: 35px;
+}
+
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .profileDetailscard {
+        width: 400px;
+        height: 510px;
+        transition: 0.8s;
+    }
+
+    .ProfileCard {
+        margin-left: 10%;
+        transition: 0.8s;
+    }
+
+    .cardheader {
+        margin-left: -25%;
+        transition: 0.8s;
+    }
+}

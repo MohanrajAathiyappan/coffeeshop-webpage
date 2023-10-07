@@ -17,13 +17,16 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import FirstCoffeeProduct from "./CoffeeProductImages/CoffeeProduct1.jpg";
 import FlatWhiteCoffee from "./CoffeeProductImages/flatwhite.jpg";
 import CaffeMocha from "./CoffeeProductImages/Caffe mocha.jpg";
-
+import Affogato from './CoffeeProductImages/Affogato Image.jpg'
+import IrishCoffee from './CoffeeProductImages/Irish coffee.jpg'
+import ColdBrew from './CoffeeProductImages/Coldbrew.webp'
+import Seed from './CoffeeProductImages/seedcoffee.png'
 const ProductCards = () => {
     return (
-        <div>
+        <div className="backgroundCoofee">
             <div className="CoffeeProducts">
                 <Card sx={{ maxWidth: 345, padding: "10px", backgroundColor: 'rgb(247, 229, 196)', borderRadius: '36px' }}>
-                    <CardHeader title="Cappuccino"
+                    <CardHeader title="Cappuccino" sx={{textAlign:'center'}}
                     //subheader="September 14, 2016"
                     />
                     <CardMedia
@@ -63,7 +66,7 @@ const ProductCards = () => {
             <div className="CoffeeProducts">
                 <Card sx={{ maxWidth: 345, padding: "10px", backgroundColor: 'rgb(247, 229, 196)', borderRadius: '36px' }}>
                     <CardHeader
-                        title="Flat White Coffee"
+                        title="Flat White Coffee" sx={{textAlign:'center'}}
                     />
                     <CardMedia
                         sx={{ borderRadius: '26px' }}
@@ -101,7 +104,7 @@ const ProductCards = () => {
 
             <div className="CoffeeProducts">
                 <Card sx={{ maxWidth: 345, padding: "10px", backgroundColor: 'rgb(247, 229, 196)', borderRadius: '36px' }}>
-                    <CardHeader title="Caffe Mocha" />
+                    <CardHeader title="Caffe Mocha" sx={{textAlign:'center'}} />
                     <CardMedia
                         sx={{ borderRadius: '26px' }}
                         component="img"
@@ -138,21 +141,21 @@ const ProductCards = () => {
 
             <div className="CoffeeProducts">
                 <Card sx={{ maxWidth: 345, padding: "10px", backgroundColor: 'rgb(247, 229, 196)', borderRadius: '36px' }}>
-                    <CardHeader
-                        title="Shrimp and Chorizo Paella"
+                    <CardHeader sx={{textAlign:'center'}}
+                        title="Affogato Coffee"
                     />
                     <CardMedia
                         sx={{ borderRadius: '26px' }}
                         component="img"
                         height="194"
-                        image={FirstCoffeeProduct}
+                        image={Affogato}
                         alt="Coffee"
                     />
                     <CardContent>
                         <Typography variant="body2" color="text.secondary">
-                            This impressive paella is a perfect party dish and a fun meal to
-                            cook together with your guests. Add 1 cup of frozen peas along
-                            with the mussels, if you like.
+                        An affogato, more traditionally known as "affogato al caffè",
+                        is an Italian coffee-based dessert.In the form of a scoop 
+                        of plain milk-flavored or vanilla gelato or ice cream topped.
                         </Typography>
                     </CardContent>
                     <CardActions disableSpacing>
@@ -177,21 +180,21 @@ const ProductCards = () => {
 
             <div className="CoffeeProducts">
                 <Card sx={{ maxWidth: 345, padding: "10px", backgroundColor: 'rgb(247, 229, 196)', borderRadius: '36px' }}>
-                    <CardHeader
-                        title="Shrimp and Chorizo Paella"
+                    <CardHeader sx={{textAlign:'center'}}
+                        title="Irish Coffee"
                     />
                     <CardMedia
                         sx={{ borderRadius: '26px' }}
                         component="img"
                         height="194"
-                        image={FirstCoffeeProduct}
+                        image={IrishCoffee}
                         alt="Coffee"
                     />
                     <CardContent>
                         <Typography variant="body2" color="text.secondary">
-                            This impressive paella is a perfect party dish and a fun meal to
-                            cook together with your guests. Add 1 cup of frozen peas along
-                            with the mussels, if you like.
+                        Irish coffee is a caffeinated alcoholic drink consisting of 
+                        Irish whiskey, hot coffee and sugar, which has been stirred and 
+                        topped with cream.The coffee is drunk through the cream.
                         </Typography>
                     </CardContent>
                     <CardActions disableSpacing>
@@ -216,21 +219,21 @@ const ProductCards = () => {
 
             <div className="CoffeeProducts">
                 <Card sx={{ maxWidth: 345, padding: "10px", backgroundColor: 'rgb(247, 229, 196)', borderRadius: '36px' }}>
-                    <CardHeader
-                        title="Shrimp and Chorizo Paella"
+                    <CardHeader sx={{textAlign:'center'}}
+                        title="Cold Brew Coffee"
                     />
                     <CardMedia
                         sx={{ borderRadius: '26px' }}
                         component="img"
                         height="194"
-                        image={FirstCoffeeProduct}
+                        image={ColdBrew}
                         alt="Coffee"
                     />
                     <CardContent>
                         <Typography variant="body2" color="text.secondary">
-                            This impressive paella is a perfect party dish and a fun meal to
-                            cook together with your guests. Add 1 cup of frozen peas along
-                            with the mussels, if you like.
+                        Cold brew coffee, also called cold water extraction or cold pressing, 
+                        is the process of steeping coffee grounds in water at cool temperatures 
+                        for an extended period.
                         </Typography>
                     </CardContent>
                     <CardActions disableSpacing>

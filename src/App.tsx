@@ -6,6 +6,7 @@ import LoginPage from './CoffeeShopLoginPage/LoginPage';
 import RegisterPage from './CoffeeShopRegisterPage/RegisterPage';
 import Homepage from './CoffeeShopHomepage/MainHomepage/mainhomepage'
 import ForgetPassword from './CoffeeShopForgetPassword/forgetPasswordPage'
+import Profile from './CoffeeShopHomepage/CoffeeShop Profile/UserProfile'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/CoffeeShopRegister' element={<RegisterPage />}></Route>
         <Route path='/CoffeeShopForgetPassword' element={<ForgetPassword />}></Route>
         <Route path='/Homepage' element={<Homepage />}></Route>
+        <Route path='/Profile' element={<Profile />}></Route>
       </Routes>
     </BrowserRouter>
   );

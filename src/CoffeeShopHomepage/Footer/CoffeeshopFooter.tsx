@@ -8,7 +8,7 @@ const CoffeeshopFooter = () => {
             <div className='Footer'>
 
                 <div className='FooterCopywright'>
-                    &copy; Mohanraj Aathiyappan - Made with Love
+                    &copy; CoffeeShop - Made with Love
                 </div>
 
                 <div className='socialmediaicons'>
@@ -16,10 +16,10 @@ const CoffeeshopFooter = () => {
                         renders: github icon
                         url(on click): navigate to vimeo.com 
                     */}
-                    <SocialIcon className='iconsdesign' network='facebook' url='https://www.facebook.com/' bgColor="white" fgColor="blue" />
-                    <SocialIcon className='iconsdesign' network='instagram' url='https://www.instagram.com/' bgColor="white" fgColor="red"/>
-                    <SocialIcon className='iconsdesign' network='github' url='https://github.com/' />
-                    <SocialIcon className='iconsdesign' network='twitter' />
+                    <SocialIcon className='iconsdesign' network='facebook' url='https://www.facebook.com/' bgColor="white" fgColor="#3e2016" />
+                    <SocialIcon className='iconsdesign' network='instagram' url='https://www.instagram.com/' bgColor="white" fgColor="#3e2016"/>
+                    <SocialIcon className='iconsdesign' network='github' url='https://github.com/' bgColor="white" fgColor="#3e2016" />
+                    <SocialIcon className='iconsdesign' network='twitter' bgColor="white" fgColor="#3e2016"/>
 
                 </div>
 
